@@ -9,6 +9,19 @@ header {
   background-color: blue;
 }
 
+#logo {
+  background-color: black;
+  height: 100px;
+  width: 250px;
+  padding: 20px
+}
+
+#logo img {
+  height: 60px;
+}
+
+
+
 main {
   height: calc(100vh - 200px);
   background-color: coral;
@@ -20,7 +33,51 @@ footer {
 }
 
 #menu {
+  display: flex;
   width: 250px;
   height: 100%;
-  background-color: yellow;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.btn {
+  padding: 10px 30px;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+/* Utility */
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Liste */
+
+h2 {
+  color: white;
+}
+
+#menu ul li {
+  color: white;
+  padding: 10px 20px;
+}
+
+#menu ul li img {
+  height: 40px;
+  margin: 5px;
 }

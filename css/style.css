@@ -20,6 +20,9 @@ header {
   height: 60px;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 main {
@@ -57,6 +60,13 @@ footer {
 }
 
 /* Utility */
+.font-w {
+  font-weight: 900;
+}
+
+.p-10-20 {
+  padding: 10px 20px;
+}
 
 .space-between {
   justify-content: space-between;
@@ -66,9 +76,22 @@ footer {
   align-items: center;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
 /* Liste */
 
 h2 {
+  color: white;
+}
+
+#menu {
   color: white;
 }
 
@@ -79,5 +102,21 @@ h2 {
 
 #menu ul li img {
   height: 40px;
-  margin: 5px;
+  margin-right: 10px;
+}
+
+#profile img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+hr {
+  margin: 0 10px;
 }

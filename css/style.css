@@ -22,6 +22,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  display: flex;
+}
+
 
 #content {
   height: calc(100vh - 100px);
@@ -45,6 +49,7 @@ body {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -119,6 +124,10 @@ h3 {
 
 .gap-10 {
   gap: 10px;
+}
+
+.gap-30 {
+  gap: 30px;
 }
 
 .mr-25 {
@@ -211,21 +220,26 @@ footer img {
 }
 
 
-footer .icon {
+footer .icon,
+footer .icon-big {
   color: white;
 }
 
-#play {
+#info-music {
   width: 250px;
   padding: 10px;
 }
 
-.icon i {
-  padding: 0 5px;
-}
-
 .icon {
   display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-big {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .inline-block {
@@ -237,4 +251,63 @@ footer .icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#option-music {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#music-duration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bar-time {
+  height: 5px;
+  width: 70%;
+  background-color: grey;
+  border-radius: 5px;
+  margin: 15px;
+  position: relative;
+}
+
+.reproduced {
+  width: 15%;
+  height: 5px;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.music-time {
+  color: white;
+}
+
+#audio-video {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.bar-audio {
+  height: 5px;
+  width: 70%;
+  background-color: grey;
+  border-radius: 5px;
+  margin: 15px;
+  position: relative;
+}
+
+.audio {
+  width: 40%;
+  height: 5px;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

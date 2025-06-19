@@ -7,6 +7,7 @@
 .header {
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
   position: relative;
 }
 
@@ -28,6 +29,8 @@ main {
 
 
 #content {
+  display: flex;
+  flex-direction: column;
   height: calc(100vh - 100px);
   background-color: #141922;
   width: calc(100vw - 250px);
@@ -54,6 +57,7 @@ main {
 }
 
 .btn {
+  display: inline-block;
   padding: 10px 30px;
   color: white;
   border: 1px solid white;
@@ -69,6 +73,16 @@ section {
 }
 
 /* Utility */
+
+.font-40 {
+  font-size: 40px;
+}
+
+.col-18 span {
+  display: inline-block;
+  color: grey;
+}
+
 .m-20 {
   margin: 20px;
 }
@@ -131,6 +145,10 @@ h3 {
   gap: 30px;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
 .mr-25 {
   margin-right: 25px;
 }
@@ -139,15 +157,35 @@ h3 {
   border-left: 5px solid greenyellow;
 }
 
+.border-bottom-g {
+  border-bottom: 3px solid greenyellow;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* Liste */
 
 #menu ul li,
 #profile {
-  color: white;
+  color: grey;
 }
 
 #menu ul li {
   padding: 10px 20px;
+}
+
+#profile {
+  padding: 5px 15px;
 }
 
 #menu ul li img {
@@ -242,6 +280,7 @@ footer .icon-big {
 .icon-big {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 

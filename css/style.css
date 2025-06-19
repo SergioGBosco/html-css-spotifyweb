@@ -27,6 +27,7 @@ body {
   height: calc(100vh - 100px);
   background-color: #141922;
   width: calc(100vw - 250px);
+  overflow-y: auto;
 }
 
 footer {
@@ -61,9 +62,17 @@ footer {
   right: 25px;
 }
 
+section {
+  margin: 20px;
+}
+
 /* Utility */
 .m-20 {
   margin: 20px;
+}
+
+.my-20 {
+  margin: 20px 0;
 }
 
 .wrapped {
@@ -135,10 +144,7 @@ h3 {
 }
 
 .circle {
-  height: 25px;
-  width: 25px;
   border-radius: 50%;
-  background-color: grey;
 }
 
 hr {
@@ -146,8 +152,6 @@ hr {
 }
 
 /* Content */
-
-
 
 #content ul {
   justify-content: center;
@@ -173,9 +177,13 @@ hr {
 }
 
 h2 {
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .card-img img {
   width: 100%;
+}
+
+span {
+  color: grey;
 }

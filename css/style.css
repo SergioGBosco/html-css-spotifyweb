@@ -34,13 +34,14 @@ main {
   overflow-y: auto;
 }
 
-
-#menu {
+#left-bar {
   display: flex;
-  width: 250px;
-  height: calc(100vh - 100px);
+  flex-direction: column;
   background-color: black;
+  justify-content: space-between;
+  width: 250px;
 }
+
 
 .container {
   max-width: 1200px;
@@ -134,16 +135,18 @@ h3 {
   margin-right: 25px;
 }
 
+.border-left-g {
+  border-left: 5px solid greenyellow;
+}
 
 /* Liste */
 
-
-#menu {
+#menu ul li,
+#profile {
   color: white;
 }
 
 #menu ul li {
-  color: white;
   padding: 10px 20px;
 }
 

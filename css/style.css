@@ -123,5 +123,14 @@ hr {
   margin: 0 10px;
 }
 
-/* Content
- */
+/* Content */
+
+#content ul {
+  justify-content: center;
+}
+
+#content ul li {
+  color: white;
+  padding: 20px;
+  list-style-type: none;
+}

@@ -30,10 +30,6 @@ body {
   overflow-y: auto;
 }
 
-footer {
-  height: 100px;
-  background-color: red;
-}
 
 #menu {
   display: flex;
@@ -186,4 +182,11 @@ h2 {
 
 span {
   color: grey;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  background-color: #282828;
 }

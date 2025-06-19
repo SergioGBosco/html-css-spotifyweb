@@ -95,6 +95,10 @@ section {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -116,6 +120,11 @@ h3 {
 .gap-10 {
   gap: 10px;
 }
+
+.mr-25 {
+  margin-right: 25px;
+}
+
 
 /* Liste */
 
@@ -149,6 +158,10 @@ hr {
 
 /* Content */
 
+.info {
+  margin: 40px 0;
+}
+
 #content ul {
   justify-content: center;
 }
@@ -173,14 +186,15 @@ hr {
 }
 
 h2 {
-  margin: 20px 0;
+  margin-bottom: 15px;
 }
 
 .card-img img {
   width: 100%;
 }
 
-span {
+#content span,
+footer span {
   color: grey;
 }
 
@@ -189,4 +203,38 @@ span {
 footer {
   height: 100px;
   background-color: #282828;
+  display: flex;
+}
+
+footer img {
+  height: 60px;
+}
+
+
+footer .icon {
+  color: white;
+}
+
+#play {
+  width: 250px;
+  padding: 10px;
+}
+
+.icon i {
+  padding: 0 5px;
+}
+
+.icon {
+  display: flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

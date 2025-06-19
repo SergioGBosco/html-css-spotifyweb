@@ -88,8 +88,9 @@
         </div>
         <!-- Visti di recente -->
         <section>
-          <h2>Recently Played</h2>
-
+          <div class="info">
+            <h2>Recently Played</h2>
+          </div>
           <div class="row gap-10">
             <div class="col-18">
               <div class="card">
@@ -163,7 +164,7 @@
         <!-- PlayList Personale -->
 
         <section>
-          <div class="my-20">
+          <div class="info">
             <h2>Creato da John Doe</h2>
             <span>Più ascolti, più accurati saranno i suggerimenti</span>
           </div>
@@ -194,7 +195,7 @@
         <!-- Artisti Più Popolari -->
 
         <section>
-          <div class="my-20">
+          <div class="info">
             <h2>Artisti più popolari</h2>
             <span>Più ascolti, più accurati saranno i suggerimenti</span>
           </div>
@@ -227,27 +228,26 @@
   <!-- Footer -->
   <footer>
 
-    <div class="row space-between">
-
-      <div class="row">
-
-        <div>
-          <img src="./img/sinister.jpeg" alt="">
+    <div id="footer">
+      <div id="play" class="row">
+        <div class="row align-center space-between w-100">
+          <div class="row gap-10 align-center">
+            <img src="./img/sinister.jpeg" alt="">
+            <div class="inline-block">
+              <h3>Sinister</h3>
+              <span>Brano Nome</span>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-folder"></i>
+          </div>
         </div>
-        <div>
-          <h3>Sinister</h3>
-          <span>Subtitle</span>
-        </div>
-        <div>
-          <i class="fa-regular fa-heart"></i>
-          <i class="fa-regular fa-folder"></i>
-        </div>
-
       </div>
 
 
       <div>
-        <div>
+        <div class="icon">
           <i class="fa-solid fa-shuffle"></i>
           <i class="fa-solid fa-backward-step"></i>
           <i class="fa-regular fa-circle-play"></i>
@@ -264,7 +264,7 @@
 
 
 
-      <div>
+      <div class="icon">
         <i class="fa-solid fa-list-ul"></i>
         <i class="fa-solid fa-display"></i>
         <i class="fa-solid fa-volume-high"></i>

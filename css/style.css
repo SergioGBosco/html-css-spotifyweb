@@ -271,10 +271,15 @@ footer .icon-big {
   padding: 10px;
 }
 
-.icon {
+.icon,
+.icon-interactive {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.icon-interactive {
+  color: grey;
 }
 
 .icon-big {
@@ -352,4 +357,47 @@ footer .icon-big {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.circle-bar {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  right: 40%;
+  transform: translate(-50%, -50%);
+  display: none;
+
+}
+
+/* Hover */
+
+#left-bar span:hover,
+#menu li:hover,
+#list-music span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+footer span:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.icon-interactive i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.reproduced:hover,
+.audio:hover {
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+
+.circle-bar:hover {
+  display: block;
 }

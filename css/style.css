@@ -4,15 +4,13 @@
   box-sizing: border-box;
 }
 
-header {
+.header {
   height: 100px;
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 
 #logo {
-  background-color: black;
-  height: 100px;
-  width: 250px;
   padding: 20px
 }
 
@@ -25,9 +23,10 @@ body {
 }
 
 
-main {
-  height: calc(100vh - 200px);
-  background-color: coral;
+#content {
+  height: calc(100vh - 100px);
+  background-color: #141922;
+  width: 100%;
 }
 
 footer {
@@ -38,7 +37,7 @@ footer {
 #menu {
   display: flex;
   width: 250px;
-  height: 100%;
+  height: calc(100vh - 100px);
   background-color: black;
 }
 
@@ -57,6 +56,9 @@ footer {
   border: 1px solid white;
   text-transform: uppercase;
   border-radius: 25px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
 
 /* Utility */
@@ -120,3 +122,6 @@ h2 {
 hr {
   margin: 0 10px;
 }
+
+/* Content
+ */

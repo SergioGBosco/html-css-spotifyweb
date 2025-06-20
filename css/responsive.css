@@ -1,0 +1,28 @@
+@media all and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .col-18 {
+    width: calc(25% - 20px);
+  }
+
+  #list-music .col-18 {
+    width: 20%;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+  .col-18 {
+    width: calc(100% / 2 - 10px);
+  }
+
+  #list-music .col-18 {
+    width: calc(100% / 3 - 20px);
+  }
+}

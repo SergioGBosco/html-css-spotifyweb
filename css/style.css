@@ -224,6 +224,14 @@ hr {
   transform: translate(-50%, +100%)
 }
 
+#list-music .col-18 {
+  margin: 10px;
+}
+
+#list-music>.container {
+  color: grey;
+}
+
 .info {
   margin: 40px 0;
 }

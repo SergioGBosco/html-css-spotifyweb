@@ -25,6 +25,11 @@
   #list-music .col-18 {
     width: calc(100% / 3 - 20px);
   }
+
+  .icon-interactive {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -67,5 +72,9 @@
 
   #list-music .col-18 {
     width: calc(100% / 4 - 20px);
+  }
+
+  #info-music .row {
+    flex-wrap: nowrap;
   }
 }

@@ -456,3 +456,8 @@ footer span:hover {
 .card-img:hover .overlay {
   display: block;
 }
+
+.click-me:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

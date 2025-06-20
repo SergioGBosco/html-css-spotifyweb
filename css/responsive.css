@@ -26,3 +26,46 @@
     width: calc(100% / 3 - 20px);
   }
 }
+
+@media all and (max-width: 576px) {
+  #left-bar span {
+    display: none;
+  }
+
+  #playlist {
+    display: none;
+  }
+
+  #profile hr {
+    display: none;
+  }
+
+  .logo-big {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+  }
+
+  #left-bar {
+    width: 80px;
+  }
+
+  #profile,
+  #menu {
+    padding: 0;
+  }
+
+  .green-bar-l {
+    display: none;
+  }
+
+  #content {
+    width: calc(100vw - 80px);
+  }
+
+  #list-music .col-18 {
+    width: calc(100% / 4 - 20px);
+  }
+}

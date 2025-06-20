@@ -72,6 +72,7 @@ section {
   margin: 20px;
 }
 
+
 /* Utility */
 
 .font-40 {
@@ -222,6 +223,19 @@ hr {
   bottom: 0px;
   left: 50%;
   transform: translate(-50%, +100%)
+}
+
+.green-bar-l {
+  width: 3px;
+  height: 50px;
+  background-color:
+    greenyellow;
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translatex(-20px);
 }
 
 #list-music .col-18 {
@@ -468,4 +482,11 @@ footer span:hover {
 .click-me:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+/* Hidden */
+
+.logo-small {
+  display: none;
+  width: 40px;
 }

@@ -206,7 +206,23 @@ hr {
   margin: 0 10px;
 }
 
+.relative {
+  position: relative;
+}
+
 /* Content */
+
+.green-bar {
+  width: 50px;
+  height: 3px;
+  background-color:
+    greenyellow;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, +100%)
+}
 
 .info {
   margin: 40px 0;
@@ -239,8 +255,14 @@ h2 {
   margin-bottom: 15px;
 }
 
+.card-img {
+  position: relative;
+}
+
 .card-img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #content span,
@@ -359,18 +381,7 @@ footer .icon-big {
   left: 0;
 }
 
-.circle-bar {
-  height: 20px;
-  width: 20px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 2.5px;
-  right: 40%;
-  transform: translate(-50%, -50%);
-  display: none;
 
-}
 
 /* Hover */
 
@@ -398,6 +409,50 @@ footer span:hover {
   cursor: pointer;
 }
 
-.circle-bar:hover {
+.circle-bar {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  display: none;
+
+}
+
+.reproduced:hover .circle-bar,
+.audio:hover .circle-bar {
+  display: block;
+}
+
+.click {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.circle+.overlay {
+  border-radius: 50%;
+}
+
+.card-img:hover .overlay {
   display: block;
 }

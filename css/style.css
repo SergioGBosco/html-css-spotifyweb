@@ -94,11 +94,6 @@ section {
   display: flex;
 }
 
-.col-18 span {
-  display: inline-block;
-  color: grey;
-}
-
 .m-20 {
   margin: 20px;
 }
@@ -505,6 +500,13 @@ footer span:hover {
 .click:hover {
   cursor: pointer;
 }
+
+i:hover,
+#profile img {
+  cursor: pointer;
+}
+
+
 
 .overlay {
   width: 100%;

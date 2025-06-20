@@ -80,7 +80,7 @@ main {
 }
 
 section {
-  margin: 20px;
+  padding: 20px;
 }
 
 
@@ -248,7 +248,7 @@ hr {
 }
 
 .green-bar {
-  width: 50px;
+  width: 25px;
   height: 3px;
   background-color:
     greenyellow;
@@ -280,6 +280,10 @@ hr {
   color: grey;
 }
 
+#list-music span {
+  font-size: 12px;
+}
+
 .info {
   margin: 40px 0;
 }
@@ -304,7 +308,7 @@ hr {
 }
 
 .card-info h3 {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 h2 {
